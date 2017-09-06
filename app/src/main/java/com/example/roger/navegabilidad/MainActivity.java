@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         dialogo1.setTitle("Importante");
         dialogo1.setMessage("¿ Acepta la ejecución de este programa en modo prueba ?");
         dialogo1.setCancelable(false);
-        dialogo1.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
+        dialogo1.setPositiveButton("Confirmar2", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialogo1, int id) {
                 aceptar();
             }
