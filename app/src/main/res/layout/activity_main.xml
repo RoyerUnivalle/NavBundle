@@ -29,5 +29,13 @@
             android:textStyle="bold"
             android:onClick="irHome"
             android:text="@string/prueba" />
+        <Button
+            android:id="@+id/btnDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:onClick="alertDialogo"
+            android:text="Dialogo" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
